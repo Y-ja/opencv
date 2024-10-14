@@ -11,9 +11,12 @@ OpenCV(Open Source Computer Vision Library)는 실시간 컴퓨터 비전과 기
 - 여러 플랫폼에서 사용 가능 (Windows, Linux, macOS)
 
 ## 설치 방법
+
+## Python 🐍
 ```Python
 pip install opencv-python
 ```
-```C++
+## C++🚀
+```
 sudo apt-get install libopencv-dev
 ```
