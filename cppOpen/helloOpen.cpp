@@ -19,6 +19,12 @@ int main() {
     std::string outputPath = "output_lena.jpg";  // 저장할 파일 이름을 .jpg로 변경
     cv::imwrite(outputPath, img);  // 이미지를 파일로 저장
 
-    cv::waitKey(0);
+    int key = 0;
+    // 스페이스바가 눌리면 창을 닫습니다.
+    while (key != 32) {  // 32는 스페이스바의 ASCII 값
+        key = cv::waitKey(0);
+        std::cout << key << std::endl;
+    }
+
     return 0;
 }
